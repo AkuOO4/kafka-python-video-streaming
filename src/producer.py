@@ -12,7 +12,7 @@ topic = 'my-topic'
 def emit_video(path_to_video):
     print('start emitting')
 
-    video = cv2.VideoCapture(path_to_video)
+    video = cv2.VideoCapture("D:/designs/video/v21.mp4")
 
     while video.isOpened():
         success, frame = video.read()
